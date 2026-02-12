@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gladys Sannidhi Reddi</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background Music (Optional, user didn't ask but nice touch, kept commented out or empty for now) -->
+
+    <!-- Container for floating hearts -->
+    <div id="hearts-container"></div>
+
+    <!-- Section 1: Intro -->
+    <section id="intro-section" class="active-section">
+        <div class="content-box glass-effect">
+            <h1 class="main-title">Happy Valentine's Day<br>Praisee Gladys Sannidhi</h1>
+            <div class="heart-explosion">
+                ❤️❤️❤️❤️❤️❤️❤️❤️
+            </div>
+            <button id="btn-to-letter" class="action-btn">Next ❤️</button>
+        </div>
+    </section>
+
+    <!-- Section 2: Letter -->
+    <section id="letter-section" class="hidden-section">
+        <div class="content-box glass-effect letter-box">
+            <h2>Letter for my bujji</h2>
+            <div class="letter-content">
+                <p>Hoiiiii my bujji baby happy happy happy valantines day bujji kanna,</p>
+                <p>Nana The way you smile when you see me. The way you feel shy when you see me. The way you take care
+                    of me.</p>
+                <p class="highlight-text">I LOVE YOU A LOT NANA ❤️❤️❤️😘😘😘</p>
+                <p>I'm very lucky to have you nana lets make more more memories and lead a happy life together.</p>
+                <p>once again happy valantine's day bujji ummmmmahhhh lots of kisses for you.</p>
+            </div>
+            <button id="btn-to-gallery" class="action-btn">Next 📸</button>
+        </div>
+    </section>
+
+    <!-- Section 3: Gallery -->
+    <section id="gallery-section" class="hidden-section">
+        <div class="content-box glass-effect gallery-box">
+            <h2>Happy Us</h2>
+            <div class="photo-grid">
+                <!-- Using placeholder images if files don't exist, but code expects photo1-4.jpg -->
+                <div class="photo-card">
+                    <img src="images/photo1.jpg" alt="Our Moment 1"
+                        onerror="this.src='https://placehold.co/300x400/pink/white?text=Photo+1'">
+                </div>
+                <div class="photo-card">
+                    <img src="images/photo2.jpg" alt="Our Moment 2"
+                        onerror="this.src='https://placehold.co/300x400/pink/white?text=Photo+2'">
+                </div>
+                <div class="photo-card">
+                    <img src="images/photo3.jpg" alt="Our Moment 3"
+                        onerror="this.src='https://placehold.co/300x400/pink/white?text=Photo+3'">
+                </div>
+                <div class="photo-card">
+                    <img src="images/photo4.jpg" alt="Our Moment 4"
+                        onerror="this.src='https://placehold.co/300x400/pink/white?text=Photo+4'">
+                </div>
+            </div>
+            <p class="footer-msg">Forever & Always ❤️</p>
+            <button id="btn-to-wishes" class="action-btn">Next 💌</button>
+        </div>
+    </section>
+
+    <!-- Section 4: Wishes -->
+    <section id="wishes-section" class="hidden-section">
+        <div class="content-box glass-effect wishes-box">
+            <h2>Special Wishes For You</h2>
+            <div class="wishes-content">
+                <p class="wish-item">🌹 Happy Rose day baby</p>
+                <p class="wish-item">💍 Happy Propose day bujji</p>
+                <p class="wish-item">🍫 Happy Chocolate day nana</p>
+                <p class="wish-item">🧸 Happy Teddy day kanna</p>
+                <p class="wish-item">🤝 Happy Promise day bondam</p>
+                <p class="wish-item">🤗 Happy Hug day laddoo</p>
+                <p class="wish-item">💋 Happy Kiss day Bangaram</p>
+                <div class="final-wish-box">
+                    <p class="final-wish">AND<br>Happy Valentine's day My Love ❤️</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
